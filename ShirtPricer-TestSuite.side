@@ -1,1261 +1,309 @@
 {
   "id": "ShirtPricer-BlackBox-Suite",
   "version": "2.0",
-  "name": "ShirtPricer Black-Box Test Suite",
+  "name": "ShirtPricer BlackBox Suite",
   "url": "http://localhost:8080",
   "tests": [
+
     {
       "id": "BB-01",
       "name": "BB-01 Standard Shirt",
       "commands": [
-        {
-          "command": "open",
-          "target": "/ShirtPricer/",
-          "value": ""
-        },
-        {
-          "command": "setWindowSize",
-          "target": "1025 729",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "name=waist",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=waist",
-          "value": "34"
-        },
-        {
-          "command": "click",
-          "target": "name=neck",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=neck",
-          "value": "32"
-        },
-        {
-          "command": "click",
-          "target": "css=input[type=\"submit\"]",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=p",
-          "value": ""
-        },
-        {
-          "command": "assertText",
-          "target": "css=p",
-          "value": "Your price is.*US Dollar"
-        }
+        { "command": "open", "target": "/ShirtPricer/", "value": "" },
+        { "command": "setWindowSize", "target": "1025x729", "value": "" },
+        { "command": "type", "target": "name=waist", "value": "34" },
+        { "command": "type", "target": "name=neck", "value": "32" },
+        { "command": "click", "target": "css=input[type=\"submit\"]", "value": "" },
+        { "command": "assertText", "target": "css=p", "value": "Your price is 97.92 US Dollar" }
       ]
     },
+
     {
       "id": "BB-02",
       "name": "BB-02 Collar Shirt",
       "commands": [
-        {
-          "command": "open",
-          "target": "/ShirtPricer/",
-          "value": ""
-        },
-        {
-          "command": "setWindowSize",
-          "target": "1025 729",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "name=waist",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=waist",
-          "value": "34"
-        },
-        {
-          "command": "click",
-          "target": "name=neck",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=neck",
-          "value": "32"
-        },
-        {
-          "command": "check",
-          "target": "name=collar",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=input[type=\"submit\"]",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=p",
-          "value": ""
-        },
-        {
-          "command": "assertText",
-          "target": "css=p",
-          "value": "Your price is.*US Dollar"
-        }
+        { "command": "open", "target": "/ShirtPricer/", "value": "" },
+        { "command": "type", "target": "name=waist", "value": "34" },
+        { "command": "type", "target": "name=neck", "value": "32" },
+        { "command": "check", "target": "name=collar", "value": "" },
+        { "command": "click", "target": "css=input[type=\"submit\"]", "value": "" },
+        { "command": "assertText", "target": "css=p", "value": "Your price is 99.92 US Dollar" }
       ]
     },
+
     {
       "id": "BB-03",
       "name": "BB-03 Long Sleeve Shirt",
       "commands": [
-        {
-          "command": "open",
-          "target": "/ShirtPricer/",
-          "value": ""
-        },
-        {
-          "command": "setWindowSize",
-          "target": "1025 729",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "name=waist",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=waist",
-          "value": "34"
-        },
-        {
-          "command": "click",
-          "target": "name=neck",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=neck",
-          "value": "32"
-        },
-        {
-          "command": "check",
-          "target": "name=sleeve",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=input[type=\"submit\"]",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=p",
-          "value": ""
-        },
-        {
-          "command": "assertText",
-          "target": "css=p",
-          "value": "Your price is.*US Dollar"
-        }
+        { "command": "open", "target": "/ShirtPricer/", "value": "" },
+        { "command": "type", "target": "name=waist", "value": "34" },
+        { "command": "type", "target": "name=neck", "value": "32" },
+        { "command": "check", "target": "name=sleeve", "value": "" },
+        { "command": "assertText", "target": "css=p", "value": "Your price is 102.92 US Dollar" }
       ]
     },
+
     {
       "id": "BB-04",
       "name": "BB-04 Premium Shirt",
       "commands": [
-        {
-          "command": "open",
-          "target": "/ShirtPricer/",
-          "value": ""
-        },
-        {
-          "command": "setWindowSize",
-          "target": "1025 729",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "name=waist",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=waist",
-          "value": "34"
-        },
-        {
-          "command": "click",
-          "target": "name=neck",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=neck",
-          "value": "32"
-        },
-        {
-          "command": "check",
-          "target": "name=collar",
-          "value": ""
-        },
-        {
-          "command": "check",
-          "target": "name=sleeve",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=input[type=\"submit\"]",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=p",
-          "value": ""
-        },
-        {
-          "command": "assertText",
-          "target": "css=p",
-          "value": "Your price is.*US Dollar"
-        }
+        { "command": "open", "target": "/ShirtPricer/", "value": "" },
+        { "command": "type", "target": "name=waist", "value": "34" },
+        { "command": "type", "target": "name=neck", "value": "32" },
+        { "command": "check", "target": "name=collar", "value": "" },
+        { "command": "check", "target": "name=sleeve", "value": "" },
+        { "command": "assertText", "target": "css=p", "value": "Your price is 104.92 US Dollar" }
       ]
     },
+
     {
       "id": "BB-05",
-      "name": "BB-05 Premium Euro Shirt",
+      "name": "BB-05 Euro Shirt",
       "commands": [
-        {
-          "command": "open",
-          "target": "/ShirtPricer/",
-          "value": ""
-        },
-        {
-          "command": "setWindowSize",
-          "target": "1025 729",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "name=waist",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=waist",
-          "value": "34"
-        },
-        {
-          "command": "click",
-          "target": "name=neck",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=neck",
-          "value": "32"
-        },
-        {
-          "command": "check",
-          "target": "name=collar",
-          "value": ""
-        },
-        {
-          "command": "check",
-          "target": "name=sleeve",
-          "value": ""
-        },
-        {
-          "command": "select",
-          "target": "name=currency",
-          "value": "label=Euro"
-        },
-        {
-          "command": "click",
-          "target": "css=input[type=\"submit\"]",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=p",
-          "value": ""
-        },
-        {
-          "command": "assertText",
-          "target": "css=p",
-          "value": "Your price is.*Euro"
-        }
+        { "command": "open", "target": "/ShirtPricer/", "value": "" },
+        { "command": "type", "target": "name=waist", "value": "34" },
+        { "command": "type", "target": "name=neck", "value": "32" },
+        { "command": "check", "target": "name=collar", "value": "" },
+        { "command": "check", "target": "name=sleeve", "value": "" },
+        { "command": "select", "target": "name=currency", "value": "label=Euro" },
+        { "command": "assertText", "target": "css=p", "value": "Your price is 92.33 Euro" }
       ]
     },
+
     {
       "id": "BB-06",
       "name": "BB-06 Small Customer",
       "commands": [
-        {
-          "command": "open",
-          "target": "/ShirtPricer/",
-          "value": ""
-        },
-        {
-          "command": "setWindowSize",
-          "target": "1025 729",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "name=waist",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=waist",
-          "value": "28"
-        },
-        {
-          "command": "click",
-          "target": "name=neck",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=neck",
-          "value": "24"
-        },
-        {
-          "command": "click",
-          "target": "css=input[type=\"submit\"]",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=p",
-          "value": ""
-        },
-        {
-          "command": "assertText",
-          "target": "css=p",
-          "value": "Your price is.*US Dollar"
-        }
+        { "command": "open", "target": "/ShirtPricer/", "value": "" },
+        { "command": "type", "target": "name=waist", "value": "28" },
+        { "command": "type", "target": "name=neck", "value": "24" },
+        { "command": "click", "target": "css=input[type=\"submit\"]", "value": "" },
+        { "command": "assertText", "target": "css=p", "value": "Your price is 60.48 US Dollar" }
       ]
     },
+
     {
       "id": "BB-07",
       "name": "BB-07 Average Customer",
       "commands": [
-        {
-          "command": "open",
-          "target": "/ShirtPricer/",
-          "value": ""
-        },
-        {
-          "command": "setWindowSize",
-          "target": "1025 729",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "name=waist",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=waist",
-          "value": "40"
-        },
-        {
-          "command": "click",
-          "target": "name=neck",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=neck",
-          "value": "34"
-        },
-        {
-          "command": "click",
-          "target": "css=input[type=\"submit\"]",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=p",
-          "value": ""
-        },
-        {
-          "command": "assertText",
-          "target": "css=p",
-          "value": "Your price is.*US Dollar"
-        }
+        { "command": "open", "target": "/ShirtPricer/", "value": "" },
+        { "command": "type", "target": "name=waist", "value": "40" },
+        { "command": "type", "target": "name=neck", "value": "34" },
+        { "command": "click", "target": "css=input[type=\"submit\"]", "value": "" },
+        { "command": "assertText", "target": "css=p", "value": "Your price is 122.40 US Dollar" }
       ]
     },
+
     {
       "id": "BB-08",
       "name": "BB-08 Large Customer",
       "commands": [
-        {
-          "command": "open",
-          "target": "/ShirtPricer/",
-          "value": ""
-        },
-        {
-          "command": "setWindowSize",
-          "target": "1025 729",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "name=waist",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=waist",
-          "value": "50"
-        },
-        {
-          "command": "click",
-          "target": "name=neck",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=neck",
-          "value": "40"
-        },
-        {
-          "command": "click",
-          "target": "css=input[type=\"submit\"]",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=p",
-          "value": ""
-        },
-        {
-          "command": "assertText",
-          "target": "css=p",
-          "value": "Your price is.*US Dollar"
-        }
+        { "command": "open", "target": "/ShirtPricer/", "value": "" },
+        { "command": "type", "target": "name=waist", "value": "50" },
+        { "command": "type", "target": "name=neck", "value": "40" },
+        { "command": "click", "target": "css=input[type=\"submit\"]", "value": "" },
+        { "command": "assertText", "target": "css=p", "value": "Your price is 180.00 US Dollar" }
       ]
     },
+
     {
       "id": "BB-09",
       "name": "BB-09 Oversized Shirt",
       "commands": [
-        {
-          "command": "open",
-          "target": "/ShirtPricer/",
-          "value": ""
-        },
-        {
-          "command": "setWindowSize",
-          "target": "1025 729",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "name=waist",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=waist",
-          "value": "60"
-        },
-        {
-          "command": "click",
-          "target": "name=neck",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=neck",
-          "value": "42"
-        },
-        {
-          "command": "click",
-          "target": "css=input[type=\"submit\"]",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=p",
-          "value": ""
-        },
-        {
-          "command": "assertText",
-          "target": "css=p",
-          "value": "Your price is.*US Dollar"
-        }
+        { "command": "open", "target": "/ShirtPricer/", "value": "" },
+        { "command": "type", "target": "name=waist", "value": "60" },
+        { "command": "type", "target": "name=neck", "value": "42" },
+        { "command": "click", "target": "css=input[type=\"submit\"]", "value": "" },
+        { "command": "assertText", "target": "css=p", "value": "Your price is 226.80 US Dollar" }
       ]
-    },
+    }
+  ]
+},
+
+{
+  "tests": [
+
     {
       "id": "BB-10",
       "name": "BB-10 Minimum Boundary",
       "commands": [
-        {
-          "command": "open",
-          "target": "/ShirtPricer/",
-          "value": ""
-        },
-        {
-          "command": "setWindowSize",
-          "target": "1025 729",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "name=waist",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=waist",
-          "value": "1"
-        },
-        {
-          "command": "click",
-          "target": "name=neck",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=neck",
-          "value": "1"
-        },
-        {
-          "command": "click",
-          "target": "css=input[type=\"submit\"]",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=p",
-          "value": ""
-        },
-        {
-          "command": "assertText",
-          "target": "css=p",
-          "value": "Your price is.*US Dollar"
-        }
+        { "command": "open", "target": "/ShirtPricer/", "value": "" },
+        { "command": "type", "target": "name=waist", "value": "1" },
+        { "command": "type", "target": "name=neck", "value": "1" },
+        { "command": "click", "target": "css=input[type=\"submit\"]", "value": "" },
+        { "command": "verifyText", "target": "css=p", "value": "(?i).*error.*" }
       ]
     },
+
     {
       "id": "BB-11",
       "name": "BB-11 Just Above Minimum",
       "commands": [
-        {
-          "command": "open",
-          "target": "/ShirtPricer/",
-          "value": ""
-        },
-        {
-          "command": "setWindowSize",
-          "target": "1025 729",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "name=waist",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=waist",
-          "value": "2"
-        },
-        {
-          "command": "click",
-          "target": "name=neck",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=neck",
-          "value": "2"
-        },
-        {
-          "command": "click",
-          "target": "css=input[type=\"submit\"]",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=p",
-          "value": ""
-        },
-        {
-          "command": "assertText",
-          "target": "css=p",
-          "value": "Your price is.*US Dollar"
-        }
+        { "command": "open", "target": "/ShirtPricer/", "value": "" },
+        { "command": "type", "target": "name=waist", "value": "2" },
+        { "command": "type", "target": "name=neck", "value": "2" },
+        { "command": "click", "target": "css=input[type=\"submit\"]", "value": "" },
+        { "command": "assertText", "target": "css=p", "value": "Your price is 0.36 US Dollar" }
       ]
     },
+
     {
       "id": "BB-12",
       "name": "BB-12 Maximum Minus One",
       "commands": [
-        {
-          "command": "open",
-          "target": "/ShirtPricer/",
-          "value": ""
-        },
-        {
-          "command": "setWindowSize",
-          "target": "1025 729",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "name=waist",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=waist",
-          "value": "499"
-        },
-        {
-          "command": "click",
-          "target": "name=neck",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=neck",
-          "value": "499"
-        },
-        {
-          "command": "click",
-          "target": "css=input[type=\"submit\"]",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=p",
-          "value": ""
-        },
-        {
-          "command": "assertText",
-          "target": "css=p",
-          "value": "Your price is.*US Dollar"
-        }
+        { "command": "open", "target": "/ShirtPricer/", "value": "" },
+        { "command": "type", "target": "name=waist", "value": "499" },
+        { "command": "type", "target": "name=neck", "value": "499" },
+        { "command": "assertText", "target": "css=p", "value": "Your price is 22410.09 US Dollar" }
       ]
     },
+
     {
       "id": "BB-13",
       "name": "BB-13 Maximum Boundary",
       "commands": [
-        {
-          "command": "open",
-          "target": "/ShirtPricer/",
-          "value": ""
-        },
-        {
-          "command": "setWindowSize",
-          "target": "1025 729",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "name=waist",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=waist",
-          "value": "500"
-        },
-        {
-          "command": "click",
-          "target": "name=neck",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=neck",
-          "value": "500"
-        },
-        {
-          "command": "click",
-          "target": "css=input[type=\"submit\"]",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=p",
-          "value": ""
-        },
-        {
-          "command": "assertText",
-          "target": "css=p",
-          "value": "Your price is.*US Dollar"
-        }
+        { "command": "open", "target": "/ShirtPricer/", "value": "" },
+        { "command": "type", "target": "name=waist", "value": "500" },
+        { "command": "type", "target": "name=neck", "value": "500" },
+        { "command": "assertText", "target": "css=p", "value": "Your price is 22590.09 US Dollar" }
       ]
     },
+
     {
       "id": "BB-14",
       "name": "BB-14 Above Maximum",
       "commands": [
-        {
-          "command": "open",
-          "target": "/ShirtPricer/",
-          "value": ""
-        },
-        {
-          "command": "setWindowSize",
-          "target": "1025 729",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "name=waist",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=waist",
-          "value": "501"
-        },
-        {
-          "command": "click",
-          "target": "name=neck",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=neck",
-          "value": "501"
-        },
-        {
-          "command": "click",
-          "target": "css=input[type=\"submit\"]",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=p",
-          "value": ""
-        },
-        {
-          "command": "verifyText",
-          "target": "css=p",
-          "value": "(?i).*error.*"
-        }
+        { "command": "open", "target": "/ShirtPricer/", "value": "" },
+        { "command": "type", "target": "name=waist", "value": "501" },
+        { "command": "type", "target": "name=neck", "value": "501" },
+        { "command": "verifyText", "target": "css=p", "value": "(?i).*error.*" }
       ]
     },
+
     {
       "id": "BB-15",
       "name": "BB-15 Zero Values",
       "commands": [
-        {
-          "command": "open",
-          "target": "/ShirtPricer/",
-          "value": ""
-        },
-        {
-          "command": "setWindowSize",
-          "target": "1025 729",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "name=waist",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=waist",
-          "value": "0"
-        },
-        {
-          "command": "click",
-          "target": "name=neck",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=neck",
-          "value": "0"
-        },
-        {
-          "command": "click",
-          "target": "css=input[type=\"submit\"]",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=p",
-          "value": ""
-        },
-        {
-          "command": "verifyText",
-          "target": "css=p",
-          "value": "(?i).*error.*"
-        }
+        { "command": "open", "target": "/ShirtPricer/", "value": "" },
+        { "command": "type", "target": "name=waist", "value": "0" },
+        { "command": "type", "target": "name=neck", "value": "0" },
+        { "command": "verifyText", "target": "css=p", "value": "(?i).*error.*" }
       ]
     },
+
     {
       "id": "BB-16",
       "name": "BB-16 Negative Waist",
       "commands": [
-        {
-          "command": "open",
-          "target": "/ShirtPricer/",
-          "value": ""
-        },
-        {
-          "command": "setWindowSize",
-          "target": "1025 729",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "name=waist",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=waist",
-          "value": "-1"
-        },
-        {
-          "command": "click",
-          "target": "name=neck",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=neck",
-          "value": "30"
-        },
-        {
-          "command": "click",
-          "target": "css=input[type=\"submit\"]",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=p",
-          "value": ""
-        },
-        {
-          "command": "verifyText",
-          "target": "css=p",
-          "value": "(?i).*error.*"
-        }
+        { "command": "open", "target": "/ShirtPricer/", "value": "" },
+        { "command": "type", "target": "name=waist", "value": "-1" },
+        { "command": "type", "target": "name=neck", "value": "30" },
+        { "command": "verifyText", "target": "css=p", "value": "(?i).*error.*" }
       ]
     },
+
     {
       "id": "BB-17",
-      "name": "BB-17 Negative Length",
+      "name": "BB-17 Negative Neck",
       "commands": [
-        {
-          "command": "open",
-          "target": "/ShirtPricer/",
-          "value": ""
-        },
-        {
-          "command": "setWindowSize",
-          "target": "1025 729",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "name=waist",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=waist",
-          "value": "30"
-        },
-        {
-          "command": "click",
-          "target": "name=neck",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=neck",
-          "value": "-1"
-        },
-        {
-          "command": "click",
-          "target": "css=input[type=\"submit\"]",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=p",
-          "value": ""
-        },
-        {
-          "command": "verifyText",
-          "target": "css=p",
-          "value": "(?i).*error.*"
-        }
+        { "command": "open", "target": "/ShirtPricer/", "value": "" },
+        { "command": "type", "target": "name=waist", "value": "30" },
+        { "command": "type", "target": "name=neck", "value": "-1" },
+        { "command": "verifyText", "target": "css=p", "value": "(?i).*error.*" }
       ]
     },
+
     {
       "id": "BB-18",
       "name": "BB-18 Extreme Negative",
       "commands": [
-        {
-          "command": "open",
-          "target": "/ShirtPricer/",
-          "value": ""
-        },
-        {
-          "command": "setWindowSize",
-          "target": "1025 729",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "name=waist",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=waist",
-          "value": "-9999"
-        },
-        {
-          "command": "click",
-          "target": "name=neck",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=neck",
-          "value": "-9999"
-        },
-        {
-          "command": "click",
-          "target": "css=input[type=\"submit\"]",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=p",
-          "value": ""
-        },
-        {
-          "command": "verifyText",
-          "target": "css=p",
-          "value": "(?i).*error.*"
-        }
+        { "command": "open", "target": "/ShirtPricer/", "value": "" },
+        { "command": "type", "target": "name=waist", "value": "-9999" },
+        { "command": "type", "target": "name=neck", "value": "-9999" },
+        { "command": "verifyText", "target": "css=p", "value": "(?i).*error.*" }
       ]
     },
+
     {
       "id": "BB-19",
       "name": "BB-19 Letters",
       "commands": [
-        {
-          "command": "open",
-          "target": "/ShirtPricer/",
-          "value": ""
-        },
-        {
-          "command": "setWindowSize",
-          "target": "1025 729",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "name=waist",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=waist",
-          "value": "AAA"
-        },
-        {
-          "command": "click",
-          "target": "name=neck",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=neck",
-          "value": "32"
-        },
-        {
-          "command": "click",
-          "target": "css=input[type=\"submit\"]",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=p",
-          "value": ""
-        },
-        {
-          "command": "verifyText",
-          "target": "css=p",
-          "value": "(?i).*error.*"
-        }
+        { "command": "open", "target": "/ShirtPricer/", "value": "" },
+        { "command": "type", "target": "name=waist", "value": "AAA" },
+        { "command": "type", "target": "name=neck", "value": "32" },
+        { "command": "verifyText", "target": "css=p", "value": "(?i).*error.*" }
       ]
     },
+
     {
       "id": "BB-20",
       "name": "BB-20 Symbols",
       "commands": [
-        {
-          "command": "open",
-          "target": "/ShirtPricer/",
-          "value": ""
-        },
-        {
-          "command": "setWindowSize",
-          "target": "1025 729",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "name=waist",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=waist",
-          "value": "%&@"
-        },
-        {
-          "command": "click",
-          "target": "name=neck",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=neck",
-          "value": "&^%"
-        },
-        {
-          "command": "click",
-          "target": "css=input[type=\"submit\"]",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=p",
-          "value": ""
-        },
-        {
-          "command": "verifyText",
-          "target": "css=p",
-          "value": "(?i).*error.*"
-        }
+        { "command": "open", "target": "/ShirtPricer/", "value": "" },
+        { "command": "type", "target": "name=waist", "value": "%&@" },
+        { "command": "type", "target": "name=neck", "value": "&^%" },
+        { "command": "verifyText", "target": "css=p", "value": "(?i).*error.*" }
       ]
     },
+
     {
       "id": "BB-21",
       "name": "BB-21 Blank Values",
       "commands": [
-        {
-          "command": "open",
-          "target": "/ShirtPricer/",
-          "value": ""
-        },
-        {
-          "command": "setWindowSize",
-          "target": "1025 729",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=input[type=\"submit\"]",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=p",
-          "value": ""
-        },
-        {
-          "command": "verifyText",
-          "target": "css=p",
-          "value": "(?i).*error.*"
-        }
+        { "command": "open", "target": "/ShirtPricer/", "value": "" },
+        { "command": "click", "target": "css=input[type=\"submit\"]", "value": "" },
+        { "command": "verifyText", "target": "css=p", "value": "(?i).*error.*" }
       ]
     },
+
     {
       "id": "BB-22",
       "name": "BB-22 Unit Confusion",
       "commands": [
-        {
-          "command": "open",
-          "target": "/ShirtPricer/",
-          "value": ""
-        },
-        {
-          "command": "setWindowSize",
-          "target": "1025 729",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "name=waist",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=waist",
-          "value": "34 inches"
-        },
-        {
-          "command": "click",
-          "target": "name=neck",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=neck",
-          "value": "32 cm"
-        },
-        {
-          "command": "click",
-          "target": "css=input[type=\"submit\"]",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=p",
-          "value": ""
-        },
-        {
-          "command": "verifyText",
-          "target": "css=p",
-          "value": "(?i).*error.*"
-        }
+        { "command": "open", "target": "/ShirtPricer/", "value": "" },
+        { "command": "type", "target": "name=waist", "value": "34 inches" },
+        { "command": "type", "target": "name=neck", "value": "32 cm" },
+        { "command": "verifyText", "target": "css=p", "value": "(?i).*error.*" }
       ]
     },
+
     {
       "id": "BB-23",
       "name": "BB-23 Long String",
       "commands": [
-        {
-          "command": "open",
-          "target": "/ShirtPricer/",
-          "value": ""
-        },
-        {
-          "command": "setWindowSize",
-          "target": "1025 729",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "name=waist",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=waist",
-          "value": "UUUU123456780KMSWKWE383939m9929292923d44455EENE"
-        },
-        {
-          "command": "click",
-          "target": "name=neck",
-          "value": ""
-        },
-        {
-          "command": "type",
-          "target": "name=neck",
-          "value": "999999999999"
-        },
-        {
-          "command": "click",
-          "target": "css=input[type=\"submit\"]",
-          "value": ""
-        },
-        {
-          "command": "click",
-          "target": "css=p",
-          "value": ""
-        },
-        {
-          "command": "verifyText",
-          "target": "css=p",
-          "value": "(?i).*error.*"
-        }
+        { "command": "open", "target": "/ShirtPricer/", "value": "" },
+        { "command": "type", "target": "name=waist", "value": "UUUU123456780KMSWKWE383939m9929292923d44455EENE" },
+        { "command": "type", "target": "name=neck", "value": "999999999999" },
+        { "command": "verifyText", "target": "css=p", "value": "(?i).*error.*" }
       ]
     }
   ],
+
   "suites": [
     {
       "id": "Valid-Customer-Orders",
       "name": "Valid Customer Orders",
-      "parallel": false,
-      "persistSession": false,
-      "tests": [
-        "BB-01",
-        "BB-02",
-        "BB-03",
-        "BB-04",
-        "BB-05"
-      ]
+      "tests": ["BB-01","BB-02","BB-03","BB-04","BB-05"]
     },
     {
       "id": "Representative-Values",
       "name": "Representative Values",
-      "parallel": false,
-      "persistSession": false,
-      "tests": [
-        "BB-06",
-        "BB-07",
-        "BB-08",
-        "BB-09"
-      ]
+      "tests": ["BB-06","BB-07","BB-08","BB-09"]
     },
     {
       "id": "Boundary-Tests",
       "name": "Boundary Tests",
-      "parallel": false,
-      "persistSession": false,
-      "tests": [
-        "BB-10",
-        "BB-11",
-        "BB-12",
-        "BB-13",
-        "BB-14"
-      ]
+      "tests": ["BB-10","BB-11","BB-12","BB-13","BB-14"]
     },
     {
       "id": "Invalid-Numeric",
       "name": "Invalid Numeric",
-      "parallel": false,
-      "persistSession": false,
-      "tests": [
-        "BB-15",
-        "BB-16",
-        "BB-17",
-        "BB-18"
-      ]
+      "tests": ["BB-15","BB-16","BB-17","BB-18"]
     },
     {
       "id": "Invalid-Input",
       "name": "Invalid Input",
-      "parallel": false,
-      "persistSession": false,
-      "tests": [
-        "BB-19",
-        "BB-20",
-        "BB-21",
-        "BB-22",
-        "BB-23"
-      ]
+      "tests": ["BB-19","BB-20","BB-21","BB-22","BB-23"]
     }
   ]
 }

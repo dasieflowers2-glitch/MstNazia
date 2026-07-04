@@ -10,7 +10,17 @@
       "commands": [
         {
           "command": "open",
-          "target": "/",
+          "target": "/ShirtPricer/",
+          "value": ""
+        },
+        {
+          "command": "setWindowSize",
+          "target": "1025 729",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=waist",
           "value": ""
         },
         {
@@ -19,19 +29,29 @@
           "value": "34"
         },
         {
+          "command": "click",
+          "target": "name=neck",
+          "value": ""
+        },
+        {
           "command": "type",
           "target": "name=neck",
           "value": "32"
         },
         {
           "command": "click",
-          "target": "button:contains('Calculate Price')",
+          "target": "css=input[type=\"submit\"]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=p",
           "value": ""
         },
         {
           "command": "assertText",
-          "target": "id=price",
-          "value": ".*\\$.*"
+          "target": "css=p",
+          "value": "Your price is.*US Dollar"
         }
       ]
     },
@@ -41,13 +61,28 @@
       "commands": [
         {
           "command": "open",
-          "target": "/",
+          "target": "/ShirtPricer/",
+          "value": ""
+        },
+        {
+          "command": "setWindowSize",
+          "target": "1025 729",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=waist",
           "value": ""
         },
         {
           "command": "type",
           "target": "name=waist",
           "value": "34"
+        },
+        {
+          "command": "click",
+          "target": "name=neck",
+          "value": ""
         },
         {
           "command": "type",
@@ -61,13 +96,18 @@
         },
         {
           "command": "click",
-          "target": "button:contains('Calculate Price')",
+          "target": "css=input[type=\"submit\"]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=p",
           "value": ""
         },
         {
           "command": "assertText",
-          "target": "id=price",
-          "value": ".*\\$.*"
+          "target": "css=p",
+          "value": "Your price is.*US Dollar"
         }
       ]
     },
@@ -77,13 +117,28 @@
       "commands": [
         {
           "command": "open",
-          "target": "/",
+          "target": "/ShirtPricer/",
+          "value": ""
+        },
+        {
+          "command": "setWindowSize",
+          "target": "1025 729",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=waist",
           "value": ""
         },
         {
           "command": "type",
           "target": "name=waist",
           "value": "34"
+        },
+        {
+          "command": "click",
+          "target": "name=neck",
+          "value": ""
         },
         {
           "command": "type",
@@ -97,13 +152,18 @@
         },
         {
           "command": "click",
-          "target": "button:contains('Calculate Price')",
+          "target": "css=input[type=\"submit\"]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=p",
           "value": ""
         },
         {
           "command": "assertText",
-          "target": "id=price",
-          "value": ".*\\$.*"
+          "target": "css=p",
+          "value": "Your price is.*US Dollar"
         }
       ]
     },
@@ -113,13 +173,28 @@
       "commands": [
         {
           "command": "open",
-          "target": "/",
+          "target": "/ShirtPricer/",
+          "value": ""
+        },
+        {
+          "command": "setWindowSize",
+          "target": "1025 729",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=waist",
           "value": ""
         },
         {
           "command": "type",
           "target": "name=waist",
           "value": "34"
+        },
+        {
+          "command": "click",
+          "target": "name=neck",
+          "value": ""
         },
         {
           "command": "type",
@@ -138,13 +213,18 @@
         },
         {
           "command": "click",
-          "target": "button:contains('Calculate Price')",
+          "target": "css=input[type=\"submit\"]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=p",
           "value": ""
         },
         {
           "command": "assertText",
-          "target": "id=price",
-          "value": ".*\\$.*"
+          "target": "css=p",
+          "value": "Your price is.*US Dollar"
         }
       ]
     },
@@ -154,13 +234,28 @@
       "commands": [
         {
           "command": "open",
-          "target": "/",
+          "target": "/ShirtPricer/",
+          "value": ""
+        },
+        {
+          "command": "setWindowSize",
+          "target": "1025 729",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=waist",
           "value": ""
         },
         {
           "command": "type",
           "target": "name=waist",
           "value": "34"
+        },
+        {
+          "command": "click",
+          "target": "name=neck",
+          "value": ""
         },
         {
           "command": "type",
@@ -184,13 +279,18 @@
         },
         {
           "command": "click",
-          "target": "button:contains('Calculate Price')",
+          "target": "css=input[type=\"submit\"]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=p",
           "value": ""
         },
         {
           "command": "assertText",
-          "target": "id=price",
-          "value": ".*€.*"
+          "target": "css=p",
+          "value": "Your price is.*Euro"
         }
       ]
     },
@@ -200,7 +300,17 @@
       "commands": [
         {
           "command": "open",
-          "target": "/",
+          "target": "/ShirtPricer/",
+          "value": ""
+        },
+        {
+          "command": "setWindowSize",
+          "target": "1025 729",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=waist",
           "value": ""
         },
         {
@@ -209,19 +319,29 @@
           "value": "28"
         },
         {
+          "command": "click",
+          "target": "name=neck",
+          "value": ""
+        },
+        {
           "command": "type",
           "target": "name=neck",
           "value": "24"
         },
         {
           "command": "click",
-          "target": "button:contains('Calculate Price')",
+          "target": "css=input[type=\"submit\"]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=p",
           "value": ""
         },
         {
           "command": "assertText",
-          "target": "id=price",
-          "value": ".*\\$.*"
+          "target": "css=p",
+          "value": "Your price is.*US Dollar"
         }
       ]
     },
@@ -231,7 +351,17 @@
       "commands": [
         {
           "command": "open",
-          "target": "/",
+          "target": "/ShirtPricer/",
+          "value": ""
+        },
+        {
+          "command": "setWindowSize",
+          "target": "1025 729",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=waist",
           "value": ""
         },
         {
@@ -240,19 +370,29 @@
           "value": "40"
         },
         {
+          "command": "click",
+          "target": "name=neck",
+          "value": ""
+        },
+        {
           "command": "type",
           "target": "name=neck",
           "value": "34"
         },
         {
           "command": "click",
-          "target": "button:contains('Calculate Price')",
+          "target": "css=input[type=\"submit\"]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=p",
           "value": ""
         },
         {
           "command": "assertText",
-          "target": "id=price",
-          "value": ".*\\$.*"
+          "target": "css=p",
+          "value": "Your price is.*US Dollar"
         }
       ]
     },
@@ -262,7 +402,17 @@
       "commands": [
         {
           "command": "open",
-          "target": "/",
+          "target": "/ShirtPricer/",
+          "value": ""
+        },
+        {
+          "command": "setWindowSize",
+          "target": "1025 729",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=waist",
           "value": ""
         },
         {
@@ -271,19 +421,29 @@
           "value": "50"
         },
         {
+          "command": "click",
+          "target": "name=neck",
+          "value": ""
+        },
+        {
           "command": "type",
           "target": "name=neck",
           "value": "40"
         },
         {
           "command": "click",
-          "target": "button:contains('Calculate Price')",
+          "target": "css=input[type=\"submit\"]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=p",
           "value": ""
         },
         {
           "command": "assertText",
-          "target": "id=price",
-          "value": ".*\\$.*"
+          "target": "css=p",
+          "value": "Your price is.*US Dollar"
         }
       ]
     },
@@ -293,7 +453,17 @@
       "commands": [
         {
           "command": "open",
-          "target": "/",
+          "target": "/ShirtPricer/",
+          "value": ""
+        },
+        {
+          "command": "setWindowSize",
+          "target": "1025 729",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=waist",
           "value": ""
         },
         {
@@ -302,19 +472,29 @@
           "value": "60"
         },
         {
+          "command": "click",
+          "target": "name=neck",
+          "value": ""
+        },
+        {
           "command": "type",
           "target": "name=neck",
           "value": "42"
         },
         {
           "command": "click",
-          "target": "button:contains('Calculate Price')",
+          "target": "css=input[type=\"submit\"]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=p",
           "value": ""
         },
         {
           "command": "assertText",
-          "target": "id=price",
-          "value": ".*\\$.*"
+          "target": "css=p",
+          "value": "Your price is.*US Dollar"
         }
       ]
     },
@@ -324,7 +504,17 @@
       "commands": [
         {
           "command": "open",
-          "target": "/",
+          "target": "/ShirtPricer/",
+          "value": ""
+        },
+        {
+          "command": "setWindowSize",
+          "target": "1025 729",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=waist",
           "value": ""
         },
         {
@@ -333,19 +523,29 @@
           "value": "1"
         },
         {
+          "command": "click",
+          "target": "name=neck",
+          "value": ""
+        },
+        {
           "command": "type",
           "target": "name=neck",
           "value": "1"
         },
         {
           "command": "click",
-          "target": "button:contains('Calculate Price')",
+          "target": "css=input[type=\"submit\"]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=p",
           "value": ""
         },
         {
           "command": "assertText",
-          "target": "id=price",
-          "value": ".*\\$.*"
+          "target": "css=p",
+          "value": "Your price is.*US Dollar"
         }
       ]
     },
@@ -355,7 +555,17 @@
       "commands": [
         {
           "command": "open",
-          "target": "/",
+          "target": "/ShirtPricer/",
+          "value": ""
+        },
+        {
+          "command": "setWindowSize",
+          "target": "1025 729",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=waist",
           "value": ""
         },
         {
@@ -364,19 +574,29 @@
           "value": "2"
         },
         {
+          "command": "click",
+          "target": "name=neck",
+          "value": ""
+        },
+        {
           "command": "type",
           "target": "name=neck",
           "value": "2"
         },
         {
           "command": "click",
-          "target": "button:contains('Calculate Price')",
+          "target": "css=input[type=\"submit\"]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=p",
           "value": ""
         },
         {
           "command": "assertText",
-          "target": "id=price",
-          "value": ".*\\$.*"
+          "target": "css=p",
+          "value": "Your price is.*US Dollar"
         }
       ]
     },
@@ -386,7 +606,17 @@
       "commands": [
         {
           "command": "open",
-          "target": "/",
+          "target": "/ShirtPricer/",
+          "value": ""
+        },
+        {
+          "command": "setWindowSize",
+          "target": "1025 729",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=waist",
           "value": ""
         },
         {
@@ -395,19 +625,29 @@
           "value": "499"
         },
         {
+          "command": "click",
+          "target": "name=neck",
+          "value": ""
+        },
+        {
           "command": "type",
           "target": "name=neck",
           "value": "499"
         },
         {
           "command": "click",
-          "target": "button:contains('Calculate Price')",
+          "target": "css=input[type=\"submit\"]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=p",
           "value": ""
         },
         {
           "command": "assertText",
-          "target": "id=price",
-          "value": ".*\\$.*"
+          "target": "css=p",
+          "value": "Your price is.*US Dollar"
         }
       ]
     },
@@ -417,7 +657,17 @@
       "commands": [
         {
           "command": "open",
-          "target": "/",
+          "target": "/ShirtPricer/",
+          "value": ""
+        },
+        {
+          "command": "setWindowSize",
+          "target": "1025 729",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=waist",
           "value": ""
         },
         {
@@ -426,19 +676,29 @@
           "value": "500"
         },
         {
+          "command": "click",
+          "target": "name=neck",
+          "value": ""
+        },
+        {
           "command": "type",
           "target": "name=neck",
           "value": "500"
         },
         {
           "command": "click",
-          "target": "button:contains('Calculate Price')",
+          "target": "css=input[type=\"submit\"]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=p",
           "value": ""
         },
         {
           "command": "assertText",
-          "target": "id=price",
-          "value": ".*\\$.*"
+          "target": "css=p",
+          "value": "Your price is.*US Dollar"
         }
       ]
     },
@@ -448,7 +708,17 @@
       "commands": [
         {
           "command": "open",
-          "target": "/",
+          "target": "/ShirtPricer/",
+          "value": ""
+        },
+        {
+          "command": "setWindowSize",
+          "target": "1025 729",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=waist",
           "value": ""
         },
         {
@@ -457,19 +727,29 @@
           "value": "501"
         },
         {
+          "command": "click",
+          "target": "name=neck",
+          "value": ""
+        },
+        {
           "command": "type",
           "target": "name=neck",
           "value": "501"
         },
         {
           "command": "click",
-          "target": "button:contains('Calculate Price')",
+          "target": "css=input[type=\"submit\"]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=p",
           "value": ""
         },
         {
           "command": "verifyText",
-          "target": "id=error",
-          "value": ".*[Ee]rror.*"
+          "target": "css=p",
+          "value": "(?i).*error.*"
         }
       ]
     },
@@ -479,7 +759,17 @@
       "commands": [
         {
           "command": "open",
-          "target": "/",
+          "target": "/ShirtPricer/",
+          "value": ""
+        },
+        {
+          "command": "setWindowSize",
+          "target": "1025 729",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=waist",
           "value": ""
         },
         {
@@ -488,19 +778,29 @@
           "value": "0"
         },
         {
+          "command": "click",
+          "target": "name=neck",
+          "value": ""
+        },
+        {
           "command": "type",
           "target": "name=neck",
           "value": "0"
         },
         {
           "command": "click",
-          "target": "button:contains('Calculate Price')",
+          "target": "css=input[type=\"submit\"]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=p",
           "value": ""
         },
         {
           "command": "verifyText",
-          "target": "id=error",
-          "value": ".*[Ee]rror.*"
+          "target": "css=p",
+          "value": "(?i).*error.*"
         }
       ]
     },
@@ -510,7 +810,17 @@
       "commands": [
         {
           "command": "open",
-          "target": "/",
+          "target": "/ShirtPricer/",
+          "value": ""
+        },
+        {
+          "command": "setWindowSize",
+          "target": "1025 729",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=waist",
           "value": ""
         },
         {
@@ -519,19 +829,29 @@
           "value": "-1"
         },
         {
+          "command": "click",
+          "target": "name=neck",
+          "value": ""
+        },
+        {
           "command": "type",
           "target": "name=neck",
           "value": "30"
         },
         {
           "command": "click",
-          "target": "button:contains('Calculate Price')",
+          "target": "css=input[type=\"submit\"]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=p",
           "value": ""
         },
         {
           "command": "verifyText",
-          "target": "id=error",
-          "value": ".*[Ee]rror.*"
+          "target": "css=p",
+          "value": "(?i).*error.*"
         }
       ]
     },
@@ -541,7 +861,17 @@
       "commands": [
         {
           "command": "open",
-          "target": "/",
+          "target": "/ShirtPricer/",
+          "value": ""
+        },
+        {
+          "command": "setWindowSize",
+          "target": "1025 729",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=waist",
           "value": ""
         },
         {
@@ -550,19 +880,29 @@
           "value": "30"
         },
         {
+          "command": "click",
+          "target": "name=neck",
+          "value": ""
+        },
+        {
           "command": "type",
           "target": "name=neck",
           "value": "-1"
         },
         {
           "command": "click",
-          "target": "button:contains('Calculate Price')",
+          "target": "css=input[type=\"submit\"]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=p",
           "value": ""
         },
         {
           "command": "verifyText",
-          "target": "id=error",
-          "value": ".*[Ee]rror.*"
+          "target": "css=p",
+          "value": "(?i).*error.*"
         }
       ]
     },
@@ -572,7 +912,17 @@
       "commands": [
         {
           "command": "open",
-          "target": "/",
+          "target": "/ShirtPricer/",
+          "value": ""
+        },
+        {
+          "command": "setWindowSize",
+          "target": "1025 729",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=waist",
           "value": ""
         },
         {
@@ -581,19 +931,29 @@
           "value": "-9999"
         },
         {
+          "command": "click",
+          "target": "name=neck",
+          "value": ""
+        },
+        {
           "command": "type",
           "target": "name=neck",
           "value": "-9999"
         },
         {
           "command": "click",
-          "target": "button:contains('Calculate Price')",
+          "target": "css=input[type=\"submit\"]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=p",
           "value": ""
         },
         {
           "command": "verifyText",
-          "target": "id=error",
-          "value": ".*[Ee]rror.*"
+          "target": "css=p",
+          "value": "(?i).*error.*"
         }
       ]
     },
@@ -603,7 +963,17 @@
       "commands": [
         {
           "command": "open",
-          "target": "/",
+          "target": "/ShirtPricer/",
+          "value": ""
+        },
+        {
+          "command": "setWindowSize",
+          "target": "1025 729",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=waist",
           "value": ""
         },
         {
@@ -612,19 +982,29 @@
           "value": "AAA"
         },
         {
+          "command": "click",
+          "target": "name=neck",
+          "value": ""
+        },
+        {
           "command": "type",
           "target": "name=neck",
           "value": "32"
         },
         {
           "command": "click",
-          "target": "button:contains('Calculate Price')",
+          "target": "css=input[type=\"submit\"]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=p",
           "value": ""
         },
         {
           "command": "verifyText",
-          "target": "id=error",
-          "value": ".*[Ee]rror.*"
+          "target": "css=p",
+          "value": "(?i).*error.*"
         }
       ]
     },
@@ -634,7 +1014,17 @@
       "commands": [
         {
           "command": "open",
-          "target": "/",
+          "target": "/ShirtPricer/",
+          "value": ""
+        },
+        {
+          "command": "setWindowSize",
+          "target": "1025 729",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=waist",
           "value": ""
         },
         {
@@ -643,19 +1033,29 @@
           "value": "%&@"
         },
         {
+          "command": "click",
+          "target": "name=neck",
+          "value": ""
+        },
+        {
           "command": "type",
           "target": "name=neck",
           "value": "&^%"
         },
         {
           "command": "click",
-          "target": "button:contains('Calculate Price')",
+          "target": "css=input[type=\"submit\"]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=p",
           "value": ""
         },
         {
           "command": "verifyText",
-          "target": "id=error",
-          "value": ".*[Ee]rror.*"
+          "target": "css=p",
+          "value": "(?i).*error.*"
         }
       ]
     },
@@ -665,18 +1065,28 @@
       "commands": [
         {
           "command": "open",
-          "target": "/",
+          "target": "/ShirtPricer/",
+          "value": ""
+        },
+        {
+          "command": "setWindowSize",
+          "target": "1025 729",
           "value": ""
         },
         {
           "command": "click",
-          "target": "button:contains('Calculate Price')",
+          "target": "css=input[type=\"submit\"]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=p",
           "value": ""
         },
         {
           "command": "verifyText",
-          "target": "id=error",
-          "value": ".*[Ee]rror.*"
+          "target": "css=p",
+          "value": "(?i).*error.*"
         }
       ]
     },
@@ -686,7 +1096,17 @@
       "commands": [
         {
           "command": "open",
-          "target": "/",
+          "target": "/ShirtPricer/",
+          "value": ""
+        },
+        {
+          "command": "setWindowSize",
+          "target": "1025 729",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=waist",
           "value": ""
         },
         {
@@ -695,19 +1115,29 @@
           "value": "34 inches"
         },
         {
+          "command": "click",
+          "target": "name=neck",
+          "value": ""
+        },
+        {
           "command": "type",
           "target": "name=neck",
           "value": "32 cm"
         },
         {
           "command": "click",
-          "target": "button:contains('Calculate Price')",
+          "target": "css=input[type=\"submit\"]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=p",
           "value": ""
         },
         {
           "command": "verifyText",
-          "target": "id=error",
-          "value": ".*[Ee]rror.*"
+          "target": "css=p",
+          "value": "(?i).*error.*"
         }
       ]
     },
@@ -717,7 +1147,17 @@
       "commands": [
         {
           "command": "open",
-          "target": "/",
+          "target": "/ShirtPricer/",
+          "value": ""
+        },
+        {
+          "command": "setWindowSize",
+          "target": "1025 729",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=waist",
           "value": ""
         },
         {
@@ -726,19 +1166,29 @@
           "value": "UUUU123456780KMSWKWE383939m9929292923d44455EENE"
         },
         {
+          "command": "click",
+          "target": "name=neck",
+          "value": ""
+        },
+        {
           "command": "type",
           "target": "name=neck",
           "value": "999999999999"
         },
         {
           "command": "click",
-          "target": "button:contains('Calculate Price')",
+          "target": "css=input[type=\"submit\"]",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=p",
           "value": ""
         },
         {
           "command": "verifyText",
-          "target": "id=error",
-          "value": ".*[Ee]rror.*"
+          "target": "css=p",
+          "value": "(?i).*error.*"
         }
       ]
     }
